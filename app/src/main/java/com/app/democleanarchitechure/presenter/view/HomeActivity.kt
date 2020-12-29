@@ -52,15 +52,6 @@ class HomeActivity : AppCompatActivity() {
 
     private fun initView(it: RecipeModule?) {
 //        rv_home_list.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
-//        rv_home_list.adapter = adapter
-//        progressBar_home.visibility=View.GONE
-//        if (it!!.results.isNotEmpty()) {
-//            adapter.clear()
-//            adapter.add(it.results)
-//
-//        }else{
-//           // Toast.makeText(context, context?.getString(R.string.empty_list), android.widget.Toast.LENGTH_LONG).show()
-//        }
     }
 
 }
