@@ -60,9 +60,7 @@ dependencies {
     kapt "androidx.lifecycle:lifecycle-compiler:2.2.0"
     implementation "androidx.activity:activity-ktx:1.1.0"
 
-    //koin
-    implementation "org.koin:koin-android-viewmodel:$koin_version"
-    implementation "org.koin:koin-android:$koin_version"
+
 
     implementation "com.google.dagger:dagger:$daggerVersion"
     implementation "com.google.dagger:dagger-android:$daggerVersion"

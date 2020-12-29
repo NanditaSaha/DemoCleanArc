@@ -13,6 +13,7 @@
     tools:context=".presenter.view.HomeActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_home_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"

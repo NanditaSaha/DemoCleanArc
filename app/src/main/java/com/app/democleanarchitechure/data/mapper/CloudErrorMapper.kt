@@ -12,7 +12,7 @@ import java.io.IOException
 import java.net.SocketTimeoutException
 import javax.inject.Inject
 
-class CloudErrorMapper/* @Inject constructor(private val gson: Gson) */{
+class CloudErrorMapper @Inject constructor(private val gson: Gson) {
 
     fun mapToDomainErrorException(throwable: Throwable?): ErrorModel {
         val errorModel: ErrorModel? = when (throwable) {
